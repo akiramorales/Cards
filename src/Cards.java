@@ -9,7 +9,7 @@ public class Cards
 {
 	//Fields
 	private char suit;
-	private char rank;
+	private String rank;
 	private int value;
 	
 	//Constructors
@@ -19,7 +19,7 @@ public class Cards
 	 * @param rankIn	initial rank
 	 * @param valueIn	initial value
 	 */
-	public Cards(char suitIn, char rankIn, int valueIn)
+	public Cards(char suitIn, String rankIn, int valueIn)
 	{
 		suit = suitIn;
 		rank = rankIn;
@@ -39,7 +39,7 @@ public class Cards
 	 * returns the rank of the card
 	 * @return rank		the rank of the card
 	 */
-	public int getRank()
+	public String getRank()
 	{
 		return rank;
 	}
